@@ -1,6 +1,6 @@
 # Math Game
 
-A simple terminal-based math game designed for 3rd graders to practice basic arithmetic operations.
+A simple vibe coded terminal-based math game designed for 3rd graders to practice basic arithmetic operations.
 
 ## Features
 
@@ -33,7 +33,7 @@ cd math-game
 # Build using go build
 go build -o mathgame ./cmd/mathgame
 
-# Or use go install to install to your $GOPATH/bin
+# Or use go install
 go install ./cmd/mathgame
 ```
 
@@ -69,7 +69,7 @@ Follow the on-screen instructions to select a game variation and play.
 
 ## Game Variations
 
-- **Addition**: Problems with positive numbers up to 3 digits
-- **Subtraction**: Problems with positive numbers up to 3 digits (results always positive)
+- **Addition**: Problems with positive numbers up to 2 digits
+- **Subtraction**: Problems with positive numbers up to 2 digits (results always positive)
 - **Multiplication**: Problems from the multiplication table up to 12×12
 - **Division**: Problems derived from the multiplication table up to 12×12 

@@ -81,9 +81,9 @@ func mainMenu(userInterface ui.UI, storage history.Storage) {
 
 	switch choice {
 	case 0: // Addition
-		playGame(userInterface, storage, problems.NewAdditionGenerator(3))
+		playGame(userInterface, storage, problems.NewAdditionGenerator(2))
 	case 1: // Subtraction
-		playGame(userInterface, storage, problems.NewSubtractionGenerator(3))
+		playGame(userInterface, storage, problems.NewSubtractionGenerator(2))
 	case 2: // Multiplication
 		playGame(userInterface, storage, problems.NewMultiplicationGenerator(12))
 	case 3: // Division
